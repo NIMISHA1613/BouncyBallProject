@@ -14,7 +14,18 @@
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
-    <canvas id="canvas"></canvas>
+    <div>
+      <div id="scoreboard">
+        <div>
+          <h2>Flappy Bird Score Board</h2>
+        </div>
+        <div class="container">
+          Score
+          <p id="score">Score</p>
+        </div>
+      </div>
+      <canvas id="canvas"> </canvas>
+    </div>
     <button id="restart" type="button" onclick="restartGame()">
       Restart Game
     </button>

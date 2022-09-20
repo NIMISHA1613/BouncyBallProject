@@ -5,10 +5,37 @@ body {
   width: 1200px;
   border: 3px solid rgb(126, 17, 17);
   box-shadow: 5px 10px 10px grey;
+  overflow: hidden;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 button {
   display: none;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 25px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#scoreboard {
+  width: 1200px;
+  text-align: center;
+  font-size: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: black;
+  color: white;
+}
+
+#score {
+  margin: 0px;
+  border: 2px solid white;
+  border-radius: 10px;
 }
 
 #restart {
@@ -27,7 +54,8 @@ button {
 
 #canvas {
   width: 1200px;
-  height: 732px;
+  height: 655px;
+  margin: 0;
   position: fixed;
   display: none;
   background-color: rgba(97, 96, 96, 0.7);
