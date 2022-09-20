@@ -1,0 +1,38 @@
+/*Author : Nimisha Gosain*/
+
+body {
+  margin: auto;
+  width: 1200px;
+  border: 3px solid rgb(126, 17, 17);
+  box-shadow: 5px 10px 10px grey;
+}
+
+button {
+  display: none;
+}
+
+#restart {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  position: fixed;
+  top: 45%;
+  left: 43%;
+  height: 50px;
+  width: 250px;
+  text-align: center;
+  border: 3px solid red;
+  border-radius: 15px;
+}
+
+#canvas {
+  width: 1200px;
+  height: 732px;
+  position: fixed;
+  display: none;
+  background-color: rgba(97, 96, 96, 0.7);
+}
+
+#restart:hover {
+  background-color: yellow;
+}
